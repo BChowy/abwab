@@ -1,0 +1,55 @@
+[
+    {
+        "type": "header",
+        "version": "5.1.1",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "gatesdata"
+    },
+    {
+        "type": "table",
+        "name": "datatable",
+        "database": "gatesdata",
+        "data": [
+            {
+                "id": "1",
+                "name": "fateh",
+                "type": "1",
+                "availability": "red",
+                "location": "https:\/\/www.google.com\/maps\/place\/Bab+Al-Fatah\/@21.4239552,39.8241019,17z\/data=!3m1!4b1!4m5!3m4!1s0x15c204b0bd7cb1db:0xcd28079d6fd44bcc!8m2!3d21.4239366!4d39.8263847!11m1!6b1",
+                "description": "no information",
+                "class": "Fateh()"
+            },
+            {
+                "id": "2",
+                "name": "salam",
+                "type": "0",
+                "availability": "green",
+                "location": "https:\/\/www.google.com\/maps\/place\/Al+Salam+Gate\/@21.4225965,39.8255424,17z\/data=!4m12!1m6!3m5!1s0x15c204ba0ce3c7d5:0xac9f398e0aeac448!2sAl+Salam+Gate!8m2!3d21.4225965!4d39.8277311!3m4!1s0x15c204ba0ce3c7d5:0xac9f398e0aeac448!8m2!3d21.4225965!4d39.8277311!11m1!6b1",
+                "description": "no information",
+                "class": "Salam()"
+            },
+            {
+                "id": "3",
+                "name": "omra",
+                "type": "0",
+                "availability": "yellow",
+                "location": "https:\/\/www.google.com\/maps\/@21.4229337,39.8246219,21z\/data=!11m1!6b1",
+                "description": "no information",
+                "class": "Omra()"
+            },
+            {
+                "id": "4",
+                "name": "abdulaziz",
+                "type": "1",
+                "availability": "yellow",
+                "location": "https:\/\/explorer.gph.gov.sa:443\/?=0$Doors_GroundFloor$585589.4960000003,2368976.7458999995",
+                "description": "no information",
+                "class": "Abdulaziz()"
+            }
+            
+        ]
+    }
+]
